@@ -28,7 +28,7 @@ export function ProfileAvatar({ size = 'md', className = '' }: ProfileAvatarProp
     <div className={`${sizeClasses[size]} relative overflow-hidden border-2 border-cyan-400 bg-black ${className}`}>
       {!imageError ? (
         <Image
-          src="/random.bucket.migration/profile.jpg"
+          src="/random.bucket.migration/me.jpeg"
           alt="Profile"
           fill
           className="object-cover"

@@ -3,7 +3,8 @@ layout: post
 title:  "Anotações malucas de estatistica"
 author: Adelson Teodoro
 date:   2025-04-20 00:51:35
-category: math
+category: matematica
+excerpt: "Apreciem a beleza da fórmula do desvio-padrão e outras anotações sobre estatística."
 tags: [math, science, latex]
 ---
 
