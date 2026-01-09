@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basePath: "/random.bucket.migration",
+  basePath: "/random.bucket",
   output: "export",
   images: {
     unoptimized: true,

@@ -27,7 +27,7 @@ Sentirei muito a sua falta, vó… Você sempre estará viva nas minhas lembran�
 
 <div class="flex justify-center mt-6">
   <img
-    src="/random.bucket.migration/blog-photos/vozinha/vozinha-e-mae.jpeg"
+    src="/random.bucket/blog-photos/vozinha/vozinha-e-mae.jpeg"
     width="200"
     height="200"
     class="block"

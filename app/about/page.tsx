@@ -46,7 +46,7 @@ export default function AboutPage() {
                         <div className="relative w-full h-full overflow-hidden bg-black">
                           {/* Photo */}
                           <Image
-                            src="/random.bucket.migration/me.jpeg"
+                            src="/random.bucket/me.jpeg"
                             alt="Adelson Teodoro"
                             fill
                             className="object-cover"

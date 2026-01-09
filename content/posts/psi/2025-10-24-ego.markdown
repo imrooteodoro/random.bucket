@@ -41,7 +41,7 @@ Destruir o ego de um homem pode ser interessante, principalmente se esse homem f
 
 <div class="flex justify-center mt-6">
   <img
-    src="/random.bucket.migration/blog-photos/danya/danya.jpg"
+    src="/random.bucket/blog-photos/danya/danya.jpg"
     width="500"
     height="500"
     alt="Danya"
