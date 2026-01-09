@@ -5,6 +5,7 @@ category: "inmemoriam"
 date: "2025-12-26"
 excerpt: "Em memória da minha querida avó Sebastiana Maria Conceição."
 dedication: "Em memória da minha querida avó Sebastiana."
+pinned: true
 ---
 
 Sinceramente, não sei como iniciar este texto. Não sei quais palavras utilizar nem em qual ordem colocá-las.
