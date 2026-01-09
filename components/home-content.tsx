@@ -26,7 +26,7 @@ export function HomeContent({ posts, categories }: HomeContentProps) {
           <div className="border-2 border-cyan-400 bg-gray-950 p-6 mb-8">
             <div className="flex items-center gap-2 mb-4 pb-3 border-b border-cyan-500/30">
               <Terminal className="w-5 h-5 text-cyan-500" />
-              <span className="font-mono text-sm text-cyan-400">random-bucket@system:~$</span>
+              <span className="font-mono text-sm text-cyan-400">random-bucket@imrooteodoro-sys:~$</span>
             </div>
             
             <div className="flex items-center gap-4 mb-4">
@@ -36,13 +36,13 @@ export function HomeContent({ posts, categories }: HomeContentProps) {
                   RANDOM_BUCKET
                 </h1>
                 <p className="font-mono text-sm text-gray-400">
-                  [ v1.0.0 ] :: Personal Knowledge Database
+                  [ v1.0.0 ] :: Personal Knowledge Database by Adelson Teodoro
                 </p>
               </div>
             </div>
             
             <div className="font-mono text-sm space-y-1 text-gray-300">
-              <p>&gt; <span className="text-cyan-400">SUBJECTS:</span> mathematics, technology, life</p>
+              <p>&gt; <span className="text-cyan-400">SUBJECTS:</span> mathematics, technology, life, chess, music</p>
               <p>&gt; <span className="text-cyan-400">STATUS:</span> <span className="text-green-400">ONLINE</span></p>
               <p>&gt; <span className="text-cyan-400">DESC:</span> Exploring random ideas, discoveries and reflections</p>
             </div>
