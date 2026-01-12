@@ -7,7 +7,7 @@ excerpt: "Introdução a estrutura de dados (conceito)."
 pinned: false
 ---
 
-Seja bem-vindo(a) a esta série de artigos sobre estruturas de dados! Neste primeiro artigo, faremos uma introdução ao conceito de estruturas de dados, sua importância na programação e alguns exemplos básicos.
+Seja bem-vindo(a) a esta série de artigos sobre estruturas de dados! Neste primeiro artigo, farei uma introdução ao conceito de estruturas de dados, sua importância na programação e alguns exemplos básicos.
 
 ## O que são Estruturas de Dados?
 
@@ -248,62 +248,62 @@ grafo.exibir()
 
 ## Conclusão
 
-Neste artigo, apresentamos uma visão geral das estruturas de dados mais fundamentais na programação. Cada estrutura tem suas características específicas e casos de uso ideais:
+Neste artigo, apresentei uma visão geral das estruturas de dados mais fundamentais na programação. Cada estrutura tem suas características específicas e casos de uso ideais:
 
-<table>
+<table style="width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-family: monospace; font-size: 0.9rem;">
   <thead>
-    <tr>
-      <th>Estrutura</th>
-      <th>Acesso</th>
-      <th>Inserção</th>
-      <th>Remoção</th>
-      <th>Uso Típico</th>
+    <tr style="background: linear-gradient(135deg, rgba(99,102,241,0.3), rgba(168,85,247,0.3)); border-bottom: 2px solid rgba(99,102,241,0.5);">
+      <th style="padding: 0.75rem 1rem; text-align: left; font-weight: 600;">Estrutura</th>
+      <th style="padding: 0.75rem 1rem; text-align: center; font-weight: 600;">Acesso</th>
+      <th style="padding: 0.75rem 1rem; text-align: center; font-weight: 600;">Inserção</th>
+      <th style="padding: 0.75rem 1rem; text-align: center; font-weight: 600;">Remoção</th>
+      <th style="padding: 0.75rem 1rem; text-align: left; font-weight: 600;">Uso Típico</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Array</td>
-      <td>O(1)</td>
-      <td>O(n)</td>
-      <td>O(n)</td>
-      <td>Dados indexados</td>
+    <tr style="background: rgba(128,128,128,0.05); border-bottom: 1px solid rgba(128,128,128,0.2);">
+      <td style="padding: 0.75rem 1rem; font-weight: 500;">📦 Array</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #22c55e;">O(1)</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #f59e0b;">O(n)</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #f59e0b;">O(n)</td>
+      <td style="padding: 0.75rem 1rem;">Dados indexados</td>
     </tr>
-    <tr>
-      <td>Lista Ligada</td>
-      <td>O(n)</td>
-      <td>O(1)</td>
-      <td>O(1)</td>
-      <td>Inserções frequentes</td>
+    <tr style="background: rgba(128,128,128,0.12); border-bottom: 1px solid rgba(128,128,128,0.2);">
+      <td style="padding: 0.75rem 1rem; font-weight: 500;">🔗 Lista Ligada</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #f59e0b;">O(n)</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #22c55e;">O(1)</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #22c55e;">O(1)</td>
+      <td style="padding: 0.75rem 1rem;">Inserções frequentes</td>
     </tr>
-    <tr>
-      <td>Pilha</td>
-      <td>O(n)</td>
-      <td>O(1)</td>
-      <td>O(1)</td>
-      <td>Desfazer operações</td>
+    <tr style="background: rgba(128,128,128,0.05); border-bottom: 1px solid rgba(128,128,128,0.2);">
+      <td style="padding: 0.75rem 1rem; font-weight: 500;">📚 Pilha</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #f59e0b;">O(n)</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #22c55e;">O(1)</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #22c55e;">O(1)</td>
+      <td style="padding: 0.75rem 1rem;">Desfazer operações</td>
     </tr>
-    <tr>
-      <td>Fila</td>
-      <td>O(n)</td>
-      <td>O(1)</td>
-      <td>O(1)</td>
-      <td>Processamento em ordem</td>
+    <tr style="background: rgba(128,128,128,0.12); border-bottom: 1px solid rgba(128,128,128,0.2);">
+      <td style="padding: 0.75rem 1rem; font-weight: 500;">🚶 Fila</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #f59e0b;">O(n)</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #22c55e;">O(1)</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #22c55e;">O(1)</td>
+      <td style="padding: 0.75rem 1rem;">Processamento em ordem</td>
     </tr>
-    <tr>
-      <td>Árvore</td>
-      <td>O(log n)</td>
-      <td>O(log n)</td>
-      <td>O(log n)</td>
-      <td>Busca eficiente</td>
+    <tr style="background: rgba(128,128,128,0.05); border-bottom: 1px solid rgba(128,128,128,0.2);">
+      <td style="padding: 0.75rem 1rem; font-weight: 500;">🌳 Árvore</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #22c55e;">O(log n)</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #22c55e;">O(log n)</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #22c55e;">O(log n)</td>
+      <td style="padding: 0.75rem 1rem;">Busca eficiente</td>
     </tr>
-    <tr>
-      <td>Grafo</td>
-      <td>O(V+E)</td>
-      <td>O(1)</td>
-      <td>O(V+E)</td>
-      <td>Redes e conexões</td>
+    <tr style="background: rgba(128,128,128,0.12);">
+      <td style="padding: 0.75rem 1rem; font-weight: 500;">🕸️ Grafo</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #f59e0b;">O(V+E)</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #22c55e;">O(1)</td>
+      <td style="padding: 0.75rem 1rem; text-align: center; color: #f59e0b;">O(V+E)</td>
+      <td style="padding: 0.75rem 1rem;">Redes e conexões</td>
     </tr>
   </tbody>
 </table>
 
-Nos próximos artigos, exploraremos cada uma dessas estruturas em maior profundidade!                                                    
+Nos próximos artigos, explorarei cada uma dessas estruturas em maior profundidade!                                                    
