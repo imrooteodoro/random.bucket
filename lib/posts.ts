@@ -182,6 +182,12 @@ const categoryConfig: Record<string, {
     icon: '🕊️',
     color: 'gray',
   },
+  'in-memoriam': {
+    name: 'In Memoriam',
+    description: 'Memories and tributes to loved ones',
+    icon: '🕊️',
+    color: 'gray',
+  },
   music: {
     name: 'Music',
     description: 'Analysis, reflections and discoveries in music',
