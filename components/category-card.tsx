@@ -32,11 +32,6 @@ const categoryInfo: Record<string, { name: string; description: string; icon: st
     description: 'Thoughts & Ideas',
     icon: '◈',
   },
-  inmemoriam: {
-    name: 'IN-MEMORIAM',
-    description: 'In Memoriam',
-    icon: '🕊️',
-  },
   'in-memoriam': {
     name: 'IN-MEMORIAM',
     description: 'In Memoriam',
@@ -53,7 +48,6 @@ export function CategoryCard({ category, count, index }: CategoryCardProps) {
     ciencia: { border: 'border-purple-500', text: 'text-purple-400', bg: 'bg-purple-500/10' },
     tecnologia: { border: 'border-green-500', text: 'text-green-400', bg: 'bg-green-500/10' },
     reflexoes: { border: 'border-amber-500', text: 'text-amber-400', bg: 'bg-amber-500/10' },
-    inmemoriam: { border: 'border-gray-500', text: 'text-gray-400', bg: 'bg-gray-500/10' },
     'in-memoriam': { border: 'border-gray-500', text: 'text-gray-400', bg: 'bg-gray-500/10' },
   };
 
