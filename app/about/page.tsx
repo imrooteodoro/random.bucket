@@ -49,7 +49,7 @@ export default function AboutPage() {
                             src="/random.bucket/me-2.jpeg"
                             alt="Adelson Teodoro"
                             fill
-                            className="object-cover"
+                            className="object-cover object-top"
                           />
                           {/* Scanline overlay */}
                           <div 
