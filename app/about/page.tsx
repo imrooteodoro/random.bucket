@@ -39,7 +39,7 @@ export default function AboutPage() {
               <div className="p-6 md:p-8">
                 <div className="flex flex-col md:flex-row gap-8 items-start">
                   {/* Photo in CRT frame */}
-                  <div className="flex-shrink-0 mx-auto md:mx-0">
+                  <div className="flex-shrink-0 mx-auto md:mx-0 md:mt-4">
                     <div className="relative">
                       {/* CRT Monitor frame */}
                       <div className="w-48 h-48 md:w-56 md:h-56 border-4 border-gray-600 bg-gray-800 p-2 shadow-[inset_0_0_20px_rgba(0,255,255,0.1)]">
